@@ -1,0 +1,24 @@
+name: Hooklab tests
+on:
+  push:
+    paths:
+      - 'hooklab/**'
+      - '.github/workflows/hooklab.yml'
+  pull_request:
+    paths:
+      - 'hooklab/**'
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: hooklab
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: hooklab/requirements.txt
+      - run: pip install -r requirements.txt
+      - run: pytest -q
