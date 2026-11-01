@@ -1,0 +1,12 @@
+services:
+  hooklab:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - hooklab-data:/app/data
+    environment:
+      HOOKLAB_MAX_BODY_BYTES: 1048576
+    restart: unless-stopped
+volumes:
+  hooklab-data:
