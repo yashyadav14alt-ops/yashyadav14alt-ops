@@ -13,6 +13,11 @@
 - SQLite persistence, Docker volume, configurable payload limit, and OpenAPI docs.
 
 ## Quick start
+This project currently lives in the `hooklab/` folder of the profile repository. Clone the parent repository, then enter this folder:
+
+    git clone https://github.com/yashyadav14alt-ops/yashyadav14alt-ops.git
+    cd yashyadav14alt-ops/hooklab
+
 Requires Python 3.10+.
 
     python -m venv .venv
