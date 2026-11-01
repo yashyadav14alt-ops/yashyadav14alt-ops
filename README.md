@@ -33,6 +33,7 @@ I’m interested in the engineering behind useful software: how systems work, ho
 These are selected projects from my repositories. They are prototypes and learning projects; their READMEs explain current capabilities and limitations.
 
 | Project | What it does | Built with |
+| [**Hooklab**](https://github.com/yashyadav14alt-ops/yashyadav14alt-ops/tree/main/hooklab) | Local-first webhook workbench to capture, inspect, and replay API events. | Python, FastAPI, SQLite, JavaScript |
 |---|---|---|
 | [**OpenInfra Insight**](https://github.com/yashyadav14alt-ops/openinfra-insight) | Local-first infrastructure analytics dashboard using fictional telemetry, transparent scoring, trends, and event exploration. | HTML, CSS, JavaScript, Python |
 | [**CRIMSON AI**](https://github.com/yashyadav14alt-ops/crimson-ai) | From-scratch, local-first AI research project exploring autodiff, tokenization, a byte-level language model, and local memory. | Python |
