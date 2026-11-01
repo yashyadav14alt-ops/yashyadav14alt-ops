@@ -1,0 +1,1 @@
+"""Hooklab application package."""
